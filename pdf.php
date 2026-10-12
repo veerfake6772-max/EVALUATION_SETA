@@ -34,6 +34,6 @@ while ($row = $result ->fetch_assoc()) {
 
 $html.='</table>';
 $pdf -> writeHTML($html,true,false,true,false,"");
-$pdf->output("user.pdf", 'D');
+$pdf->output("photo.pdf", 'D');
 
 ?>
